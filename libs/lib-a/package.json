@@ -1,0 +1,13 @@
+{
+  "name": "lib-a",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "typescript": "4.2.2"
+  },
+  "private": true
+}
